@@ -1,0 +1,26 @@
+{{!< layout}}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <h2 class="text-center">Edit Profile</h2>
+        <form method="POST">
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" value="{{user.name}}" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Nickname</label>
+                <input type="text" class="form-control" name="nickname" value="{{user.nickname}}" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Age</label>
+                <input type="text" class="form-control" name="age" value="{{user.age}}" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" class="form-control" name="email" value="{{user.email}}" required>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Update</button>
+        </form>
+    </div>
+</div>
