@@ -1,3 +1,35 @@
+# Dachieu App
+
+#### Login
+
+![home](./public/social/localhost_3000_login.png)
+
+#### Register
+
+![home](./public/social/localhost_3000_register.png)
+
+#### Profile
+
+![home](./public/social/localhost_3000_users_user-info.png)
+
+#### Edit Profile
+
+![home](./public/social/localhost_3000_users_edit.png)
+
+#### Home
+
+![home](./public/social/localhost_3000_.png)
+
+#### Line 98
+
+![home](./public/social/localhost_3000_line98.png)
+
+#### Caro
+
+![home](./public/social/localhost_3000_caro.png)
+
+# Setup
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>

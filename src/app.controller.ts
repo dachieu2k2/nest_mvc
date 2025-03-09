@@ -117,6 +117,22 @@ export class AppController {
     }
   }
 
+  @Get('caro')
+  @Render('caro')
+  async gameCaro(@Res() res: Response, @Req() request: Request) {
+    const idUser = request.cookies['user_id'] as string;
+    if (idUser) {
+      const user = await this.userService.findOne(idUser);
+      if (user?.username) {
+        return { user, message: 'Hello world' };
+      } else {
+        return res.redirect('/login');
+      }
+    } else {
+      return res.redirect('/login');
+    }
+  }
+
   // @Get('*')
   // notFound(@Res() res: Response) {
   //   // console.log('run here?');
